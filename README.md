@@ -3,7 +3,7 @@
 ***
 
 # Overview
-This repository contains a simple installer that downloads `pymel` and installs it into the user's Maya scripts folder.
+This is a simple installer for installing `pymel` into the user's Maya scripts folder.
 During installation, it automatically creates any missing cache files according to https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/6gfZgdPquwZ2qCVxfAkb1n.html
 
 # Usage
@@ -22,7 +22,7 @@ This repository does not include the pymel core. A network connection is require
 ***
 
 # 概要
-このリポジトリは `pymel` をダウンロードしてユーザーの Maya スクリプトフォルダへインストールする簡易インストーラを収めています。
+`pymel` をユーザーの Maya スクリプトフォルダへインストールする簡易インストーラーです。
 インストール時に https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/6gfZgdPquwZ2qCVxfAkb1n.html に従い不足したキャッシュファイルを自動で作成します。
 
 # 使い方
@@ -31,10 +31,9 @@ This repository does not include the pymel core. A network connection is require
 python install_pymel.py
 ```
 
-もしシステムに Python がインストールされていない場合や、コマンドの実行が面倒な場合は maya_dropper.py を Maya へ D&D してください。
+もしシステムに Python がインストールされていない場合や、コマンドの実行が面倒な場合は maya_dropper.py を Maya へドラッグ&ドロップしてください。
 起動している Maya のバージョンによらず全バージョンに対してインストールされます。
 ※ Maya の環境によってはダイアログや警告が表示されます。
 
 # 注意点
 このリポジトリには pymel 本体は含まれていません。公式リポジトリから最新のコードをダウンロードするためネットワーク環境が必要です。
-
